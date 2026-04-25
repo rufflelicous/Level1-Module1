@@ -30,7 +30,7 @@ public class RaceCarRunner {
 			System.out.println("although, thankfully you turn out fine!");
 			car.overtake();
 			System.out.println("\fn");
-			System.out.println("you ");
+			System.out.println("you win lmaooo im too lazy to finish");
 	}
 
 }
