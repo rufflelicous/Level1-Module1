@@ -14,12 +14,13 @@ public class Planet {
     int diameter;
     int avgDistFromSun;     // You can choose a different scaling than divided by 10
     int orbitalPeriod;
-    Color color = Color.BLUE;
+    Color color;
     
-    public Planet(int diameterPixels) {
+    public Planet(int diameterPixels, int orbitalPixels, int avgSunPixels, Color colorPla) {
         this.diameter = diameterPixels;
-        this.avgDistFromSun = 1496;
-        this.orbitalPeriod = 365;
+        this.avgDistFromSun = avgSunPixels;
+        this.orbitalPeriod = orbitalPixels;
+        this.color = colorPla;
     }
 
     public void draw(Graphics g, int numDays) {
